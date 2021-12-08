@@ -1,0 +1,95 @@
+/*Register.css*/
+
+h3{text-align: left;}
+
+h7{
+  font-size:x-small;
+  color: #bfc2c1;
+  margin-left: 180px;
+}
+
+.h8{
+  font-size:x-small;
+  color: red;
+  text-align: center;
+  margin-left: 180px;
+}
+
+.registertitle{
+    color: darksalmon;
+    margin-left: 180px;
+}
+
+.registration{
+  text-align: left;
+  font-weight: 700;
+  color: rgb(95, 95, 97);
+  position: relative; left: 35%;
+}
+
+span{color:red;}
+
+input{
+  margin-left: 180px;
+}
+
+label{
+  font-family: monospace;
+  margin-left: 180px;
+}
+
+input:focus {outline:none;}
+
+.registerbutton {
+    width: 140px;
+    height: 45px;
+    font-family: monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: rgb(233, 230, 230);
+    background-color: rgb(114, 116, 138);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-left: 120px;
+    
+    }
+  
+  .registerbutton:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .registerbutton2 {
+    width: 140px;
+    height: 45px;
+    font-family: monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: rgb(233, 230, 230);
+    background-color: rgb(114, 116, 138);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-left: 30px;
+    
+    }
+  
+  .registerbutton2:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }

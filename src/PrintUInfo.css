@@ -1,0 +1,56 @@
+li{
+    list-style: none;
+}
+
+label{
+    font-family: monospace;   
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+label2{
+    font-family: monospace;   
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.printInfo {
+    background-color: #e7edf0;
+    border: 1px solid;
+}
+
+.printlabel{
+  margin-right: 180px;
+}
+
+.printlabel2{
+  margin-left: -30px;
+}
+
+.printbutton{
+  width: 200px;
+  height: 40px;
+  font-family: monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(233, 230, 230);
+  background-color: rgb(114, 116, 138);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: 32px;
+
+}
+.printbutton:hover {
+  background-color: #6195c7;
+  box-shadow: 0px 15px 20px rgba(55, 96, 209, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
